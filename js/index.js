@@ -141,7 +141,7 @@
            }
            else if(x>3)
            {
-                   document.getElementById("form1").data-netlify.value="false";
+                  
                     alert("Sorry! you are out of our service area.");
                   location.reload(true);
            }
