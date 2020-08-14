@@ -1,0 +1,178 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+body
+{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ background-image: url(/images/hardware.jpg);
+
+}
+
+.head
+{
+    width: 100%;
+    height: 20vh;
+}
+
+.head marquee
+{
+    height: 20vh;
+}
+
+.head marquee img
+{
+    height: 20vh;
+    width: auto;
+}
+
+
+.container
+{
+    margin: 0 auto;
+    padding: 10px;
+    
+    width: 90%;
+    height: 100vh;
+    
+}
+
+
+
+.container .map
+{
+    margin: 5px;
+    padding: 5px;
+    height: 80%;
+    width: 45%;
+    border: 2px solid black;
+    float: left;
+  
+}
+
+
+
+.container .form
+{
+    margin: 5px 5px 3px 20px;
+    padding: 20px;
+    height: 75%;
+    width: 45%;
+    background: url(/images/car1.jpeg) center  no-repeat; 
+    background-size: cover;   
+    float: left;
+    border: 2px solid black;
+    
+    
+}
+
+.container .form label
+{
+    
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    top:12px;
+    width:200px;
+    float: left;
+    color: #000;
+}
+
+.container .form input
+{
+    background: linear-gradient(#0EDFFE,#E4FDFE) ;
+    padding: 10px 5px 12px 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width:320px;
+    color: black;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.container .form select
+{
+    margin: 5px;
+    padding: 10px 5px 12px 15px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background: linear-gradient(#E4FDFE,#FAFEFF) ;
+    color: black;
+    font-weight: bold;
+}
+
+.container .form button
+{
+    margin: 10px 0 0 40%;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(245, 198, 42);
+    border: none;
+    width: 100px;
+    color: #000;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+@media (max-width: 1333px)
+{
+    
+    .container .map
+    {
+        width: 100%;
+        height: 45%;
+        margin: 10px auto;
+    }
+    .container .form
+    {
+        width: 92%;
+        height: 45%;
+        margin: 0;
+    }
+    
+    .container .form input
+    {
+        width: 80%;
+        font-size: 12px;
+    }
+    .container .form label
+    {
+        font-size: 15px;
+        margin: 10px;
+    }
+    .container .form button
+    {
+        padding: 5px;
+    }
+    .head
+    {
+        height: 10vh;
+    }
+    .head marquee
+    {
+        height: 10vh;
+    }
+    .head marquee img
+    {
+        height: 10vh;
+    }
+
+}
+
+@media(max-width: 620px)
+{
+    .container .form label
+    {
+        margin-bottom: 10px;
+    }
+    
+}
