@@ -136,7 +136,8 @@
            {
             
              document.getElementById("form1").action= "POST";
-             document.getElementById("form1").submit();
+             document.getElementById("form1").data-netlify= "true";
+             document.getElementById("form1").submit();     
            }
            else if(x>3)
            {
