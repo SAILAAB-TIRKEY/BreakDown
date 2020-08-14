@@ -141,6 +141,7 @@
            else if(x>3)
            {
              alert("Sorry! you are out of our service area.");
+                  location.reload(true);
            }
  
              
