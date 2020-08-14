@@ -136,12 +136,13 @@
            {
             
              document.getElementById("form1").action= "POST";
-             document.getElementById("form1").data-netlify= "true";
+            
              document.getElementById("form1").submit();     
            }
            else if(x>3)
            {
-             alert("Sorry! you are out of our service area.");
+                   document.getElementById("form1").data-netlify.value="false";
+                    alert("Sorry! you are out of our service area.");
                   location.reload(true);
            }
  
